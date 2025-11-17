@@ -17,6 +17,8 @@
 </template>
 
 <style scoped>
+
+    /* ao atribuir o atributo 'scoped' na tag style, a estilização criada pertence somente ao compnente a esse componente. Como ele faz isso? o Vue cria um atributo aleatório junto a classe especificada aqui no componete, tornado - de certa forma - essa classe, única. */
     #app-wrapper {
         border: 1px solid blue;
         height: 100vh;
